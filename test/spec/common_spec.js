@@ -11,7 +11,7 @@ describe('Common', () => {
                 expect(node.type).toEqual('INPUT');
             }
         };
-        
+
         const object = {};
 
         spyOn(spyObject, 'spy');
