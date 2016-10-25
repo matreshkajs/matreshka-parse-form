@@ -1,4 +1,4 @@
-# matreshka-parse-form
+# matreshka-parse-form [![npm version](https://badge.fury.io/js/matreshka-parse-form.svg)](https://badge.fury.io/js/matreshka-parse-form) [![Coverage Status](https://coveralls.io/repos/github/matreshkajs/matreshka-parse-form/badge.svg?branch=master)](https://coveralls.io/github/matreshkajs/matreshka-parse-form?branch=master) [![Build Status](https://travis-ci.org/matreshkajs/matreshka-parse-form.svg?branch=master)](https://travis-ci.org/matreshkajs/matreshka-parse-form)
 
 The function binds named HTML form fields (input, select, textarea etc) contained at given HTML form to corresponding properties.
 
