@@ -49,14 +49,14 @@ The function accepts 4 arguments:
 - ``object`` - an object (required)
 - ``form`` - a selector, DOM node etc. of given form (custom selectors ``:sandbox`` and ``:bound(XXX)`` also acceptable) (required)
 - ``callback`` - a function which will be called on every found field; accepts field name and field element itself
-- ``eventOptions`` - event options which will be passed to internal call of ``bindNode``.
+- ``eventOptions`` - event options which will be passed to every internal call of ``bindNode``.
 
 Returns: parsed form element.
 
 
-The third argument is usable when ``parseForm`` is used with ``Matreshka.Object``. You can call ``addDataKeys`` method there.
+The third argument is usable when ``parseForm`` is used with ``Matreshka.Object``: you can call ``addDataKeys`` method there.
 ```js
 const form = parseForm(this, ':sandbox .foo', key => this.addDataKeys(key), {
     getValueOnBind: false
-})
+});
 ```
