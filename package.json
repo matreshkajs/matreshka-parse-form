@@ -14,7 +14,7 @@
     "bundle": "webpack",
     "prepublish": "npm run compile-npm",
     "release-bundle": "rimraf bundle && deploy-to-git",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "semantic-release": "semantic-release pre && npm run release-bundle && npm publish && semantic-release post",
     "commit": "git-cz"
   },
   "config": {
