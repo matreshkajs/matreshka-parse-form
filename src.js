@@ -8,7 +8,7 @@ function parseForm(object, selector, callback, eventOptions) {
 
     /* istanbul ignore if */
     if(!object || typeof object !== 'object' && typeof object !== 'function') {
-        throw Error('parseForm should accept an object or a function as the first argument')
+        throw TypeError('parseForm should accept an object or a function as the first argument')
     }
 
     for(let i = 0; i < fields.length; i++) {
