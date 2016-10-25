@@ -6,6 +6,7 @@ function parseForm(object, selector, callback, eventOptions) {
     const form = /:sandbox|:bound/.test(selector) ? select(object, selector) : $.one(selector);
     const fields = $('input, textarea, output, progress, select', form);
 
+    /* istanbul ignore if */
     if(!object || typeof object !== 'object' && typeof object !== 'function') {
         throw Error('parseForm should accept an object or a function as the first argument')
     }
