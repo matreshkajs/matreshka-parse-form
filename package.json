@@ -61,31 +61,31 @@
   },
   "homepage": "https://github.com/matreshkajs/matreshka-parse-form#readme",
   "devDependencies": {
-    "babel-cli": "^6.24.0",
+    "babel-cli": "^6.24.1",
     "babel-istanbul": "^0.12.2",
     "babel-loader": "^6.4.1",
-    "babel-preset-latest": "^6.24.0",
+    "babel-preset-latest": "^6.24.1",
     "codemirror": "^5.25.0",
     "conventional-changelog": "^1.1.3",
     "coveralls": "^2.13.0",
-    "deploy-to-git": "^0.1.1",
+    "deploy-to-git": "^0.1.2",
     "eslint": "^3.19.0",
-    "eslint-config-airbnb-base": "^11.1.2",
+    "eslint-config-airbnb-base": "^11.1.3",
     "eslint-plugin-import": "^2.2.0",
     "ghooks": "^2.0.0",
     "jasmine": "^2.5.3",
     "jsdom": "^9.12.0",
-    "matreshka": "^2.3.0",
-    "npm-check-updates": "^2.10.4",
+    "matreshka": "^2.3.1",
+    "npm-check-updates": "^2.10.5",
     "semantic-release": "^6.3.2",
-    "validate-commit-msg": "^2.12.0",
-    "webpack": "^2.3.2",
+    "validate-commit-msg": "^2.12.1",
+    "webpack": "^2.3.3",
     "webpack-generate-umd-externals": "0.0.4"
   },
   "peerDependencies": {
     "matreshka": "2.x"
   },
   "dependencies": {
-    "balajs": "^1.0.3"
+    "balajs": "^1.0.5"
   }
 }
