@@ -1,13 +1,13 @@
 const Jasmine = require('jasmine');
-const { jsdom } = require('jsdom');
+const { JSDOM } = require('jsdom');
 
 const jasmine = new Jasmine();
 
-global.document = jsdom('<!doctype html><html><body></body></html>', {
+global.window = new JSDOM('<!doctype html><html><body></body></html>', {
     url: 'http://localhost'
-});
+}).window;
 
-global.window = global.document.defaultView;
+global.document = global.window.document;
 
 jasmine.loadConfig({
     spec_dir: 'test/spec',
